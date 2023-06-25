@@ -1,12 +1,11 @@
-import { Canvas } from '@react-three/fiber';
-import { Environment, Center, PositionPoint } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber'
+import { Environment, Center } from '@react-three/drei';
 
 import Shirt from './Shirt';
 import Backdrop from './Backdrop';
 import CameraRig from './CameraRig';
 
-
-const CanvasModal = () => {
+const CanvasModel = () => {
   return (
     <Canvas
       shadows
@@ -15,7 +14,7 @@ const CanvasModal = () => {
       className="w-full max-w-full h-full transition-all ease-in"
     >
       <ambientLight intensity={0.5} />
-      <Environment preset='city' />
+      <Environment preset="city" />
 
       <CameraRig>
         <Backdrop />
@@ -27,4 +26,4 @@ const CanvasModal = () => {
   )
 }
 
-export default CanvasModal
+export default CanvasModel
