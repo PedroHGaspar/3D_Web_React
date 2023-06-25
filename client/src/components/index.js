@@ -1,7 +1,13 @@
 import CustomButton from "./CustomButton";
-import AiPicker from "./AiPicker";
+import AIPicker from "./AIPicker";
 import ColorPicker from "./ColorPicker";
-import FilePicker from "./CustomButton";
+import FilePicker from "./FilePicker";
 import Tab from "./Tab";
 
-export { CustomButton, AiPicker, ColorPicker, FilePicker, Tab }
+export {
+    CustomButton,
+    AIPicker,
+    ColorPicker,
+    FilePicker,
+    Tab,
+};
